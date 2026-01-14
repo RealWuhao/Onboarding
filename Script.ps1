@@ -94,3 +94,5 @@ git switch branch1
 git branch --list
 
 #new
+git merge branch1
+git branch -d branch1
