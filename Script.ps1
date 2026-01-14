@@ -55,3 +55,23 @@ gitgraph
 git tag --list
 
 git show v1.0.0
+
+
+# Step 1: Make a normal commit
+git add C:\TEMP\GitRepo\Onboarding\Script.ps1
+git status
+git commit -m "feat: update onboarding script"
+
+# Step 2: Create a version tag on that commit
+# git tag v1.2.0
+
+
+# (or annotated tag — recommended)
+
+git tag -a v1.2.0 -m "Release v1.2.0"
+
+# Step 3: Push commit + tag
+git push
+git push origin v1.2.0
+
+# Now that commit is officially version v1.2.0.
