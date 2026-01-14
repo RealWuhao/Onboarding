@@ -42,3 +42,16 @@ git reset --hard
 
 #restore version instaged from last commit 
 git restore --staged testfile.txt
+
+# 场景	推荐命令
+# 还没 push，想回退 1 个 commit，代码保留	git reset --soft HEAD~1
+# 还没 push，想回退 1 个 commit，代码变成未提交状态	git reset --mixed HEAD~1
+# 还没 push，想彻底丢掉这个 commit	git reset --hard HEAD~1
+# 已经 push，不想改历史（最安全）	git revert HEAD
+
+# can create a tag at the current location
+git tag v1.0.0
+gitgraph
+git tag --list
+
+git show v1.0.0
