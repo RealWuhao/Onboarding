@@ -81,3 +81,14 @@ git push --tags
 #This is to test pull
 git status
 
+#view all branches , * is current
+git branch --list
+git branch -a
+
+git branch branch1
+gitgraph
+
+git checkout branch1
+#new way
+git switch branch1
+git branch --list
