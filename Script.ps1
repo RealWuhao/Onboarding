@@ -68,13 +68,14 @@ git commit -m "feat: update onboarding script"
 
 # (or annotated tag — recommended)
 
-git tag -a v1.2.0 -m "Release v1.2.0"
+git tag -a v1.3.0 -m "Release v1.3.0"
 
 # Step 3: Push commit + tag
 git push
-git push origin v1.2.0
+git push origin v1.3.0
 
-
+#push all tags
+git push --tags
 # Now that commit is officially version v1.2.0.
 
 #This is to test pull
