@@ -79,3 +79,5 @@ git push --tags
 # Now that commit is officially version v1.2.0.
 
 #This is to test pull
+git status
+
