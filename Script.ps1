@@ -23,3 +23,11 @@ git push -u origin main
 
 #using a lot
 git log --oneline --graph --decorate --all
+
+#create a function
+function gitgraph {
+    git log --oneline --graph --decorate --all    
+}
+
+#compare difference
+#git diff <commit1> .. <commit2>
