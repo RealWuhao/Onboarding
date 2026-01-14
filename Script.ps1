@@ -1,0 +1,3 @@
+﻿##Test Script file
+hostname
+
