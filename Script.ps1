@@ -92,3 +92,5 @@ git checkout branch1
 #new way
 git switch branch1
 git branch --list
+
+#new
