@@ -29,5 +29,6 @@ function gitgraph {
     git log --oneline --graph --decorate --all    
 }
 
+
 #compare difference
 #git diff <commit1> .. <commit2>
