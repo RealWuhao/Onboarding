@@ -93,6 +93,6 @@ git checkout branch1
 git switch branch1
 git branch --list
 
-#new
+#new  
 git merge branch1
 git branch -d branch1
